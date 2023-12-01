@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #d2dbdd;
+}
+.heading_style
+{
+    text-align: center;
+    background-color: #fff;
+    padding:15px 0;
+    
+}
+.slot_inner{
+    text-align: center;
+    align-items: center;
+    padding-top: 25px;
+    font-size:13px;
+}
+
+
+
+.slotmachine{
+
+  border: 1px solid black;
+  width:25%;
+  margin-left: 38%;
+  margin-right: 38%;
+   
+   
+}
