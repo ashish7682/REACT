@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+ 
+  box-sizing: border-box;
+}
+
+form {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(165, 75, 165);
+  display: flex;
+  justify-content: center;
+ 
+  align-items: center;
+  gap: 20px;
+}
+h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px 35px;
+  outline: none;
+  font-size: 25px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+button {
+  padding: 15px 30px;
+  background-color: rgb(139, 92, 182);
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  font-size: 20px;
+  cursor: pointer;
+  border: 1px solid white;
+}
