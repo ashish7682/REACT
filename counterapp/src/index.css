@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .container {
+    height: 330px;
+    width: 100%;
+    position: relative;
+    padding: 30px 30px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+  }
+  
+  .contains {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .contains h1 {
+    color: black;
+    font-size: 50px;
+  }
+  .contains #number {
+    font-size: 50px;
+  }
+  .btn {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+  }
+  .btn-ope {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+  }
+  button {
+    padding: 8px;
+    border-radius: 4px;
+    margin: 9px;
+    cursor: pointer;
+  }
+  .btn-ope:hover {
+    background-color: green;
+  }
+  .btn:hover {
+    background-color: red;
+  }
+  
