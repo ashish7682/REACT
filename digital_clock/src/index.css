@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #d2dbdd;
+}
+div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    gap: 15px;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button
+{
+    padding: 18px 20px;
+    background: #9b59b6;
+    color: white;
+    border: 2px solid #ecf0f1;
+    outline: none;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
