@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro" , sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+.main-div{
+    min-height: 100vh;
+    background: #060822;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.child-div{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.child-div figure img{
+    width: 6rem;
+    height: 7rem;
+}
+
+.child-div figure figcaption{
+    color: #fff;
+    font-size: 2.2rem;
+    padding-top: 1.7rem;
+    text-transform: capitalize;
+}
+
+input {
+    /* display: block; */
+    min-width: 40rem;
+    height: 3.4rem;
+    padding: 2rem 1.2rem;
+    font-size: 1.8rem;
+    line-height: 1.42857143;
+    margin-top: 2rem;
+    color: rgb(58, 57, 57);
+    background-image: none;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.4rem;
+   
+  }
+
+
+.addItems{
+ position: relative;
+}
+.add-btn{
+  position: absolute;
+  top:35px;
+  right: 7px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.addItems:hover .fa-plus{
+    color:green;
+}
+
+
+.showItems{
+    margin-top: 3rem;
+    text-align: center;
+   
+}
+
+.eachItem{
+    background: #fff;
+    padding: 1rem 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 4px;
+   font-size: 12px;
+   min-width: 40rem; ;
+   margin-bottom: 0.7rem;
+   background: rgb(85, 41, 220);
+}
+
+.eachItem:hover{
+    background: rgb(249,249,252);
+    color: rgb(85,41,220);
+}
+
+.add-btn1{
+    position: absolute;
+    right: 0;
+    font-size: 1.5rem;
+    margin-right: 6px;
+    cursor: pointer;
+    color: white;
+}
+
+.eachItem:hover .fa-trash-alt{
+    color:rgb(214,47,61);
+}
+
+.eachItem:hover h3{
+    color: rgb(85,41,220);
+}
+.todo-btn {
+    width: 5rem;
+    display: flex;
+    justify-content: space-around;
+  }
+.btn {
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 45px;
+    max-width: 160px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  .btn:hover {
+    text-decoration: none;
+  }
+  
+  .effect04 {
+    --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
+    display: var(--uismLinkDisplay);
+    color: #000;
+    outline: solid 2px #000;
+    position: relative;
+    transition-duration: 0.4s;
+    overflow: hidden;
+  }
+  
+  .effect04::before,
+  .effect04 span {
+    margin: 0 auto;
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    transition-duration: 0.4s;
+  }
+  
+  .effect04:hover {
+    background-color: rgb(85, 41, 220);
+  }
+  
+  .effect04:hover span {
+    -webkit-transform: translateY(-400%) scale(-0.1, 20);
+    transform: translateY(-400%) scale(-0.1, 20);
+  }
+  
+  .effect04::before {
+    content: attr(data-sm-link-text);
+    color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -webkit-transform: translateY(500%) scale(-0.1, 20);
+    transform: translateY(500%) scale(-0.1, 20);
+  }
+  
+  .effect04:hover::before {
+    letter-spacing: 0.05em;
+    -webkit-transform: translateY(0) scale(1, 1);
+    transform: translateY(0) scale(1, 1);
+  }
