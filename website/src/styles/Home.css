@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.home-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+  width: 80%;
+  height: 85vh;
+  margin: 0 auto;
+}
+
+.content h1 {
+  font-size: 40px;
+  padding: 7px;
+}
+
+.content p {
+  font-size: 20px;
+  padding: 12px;
+}
+.btn {
+  color: white;
+  background-color: rgb(22, 22, 159);
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 7px;
+  margin: 9px;
+}
+
+.service {
+  width: 73%;
+  margin: 30px auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 80%;
+  gap: 20px;
+  margin: 20px auto;
+}
+
+/* .card-img{
+  width: 300px;
+} */
+.H_Form
+{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.form{
+  background-color: #ddd;
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+input{
+margin: 5px 0;
+width:100%;
+padding: 2px 4px;
+border-radius: 5px;
+}
+
+h5{
+  text-align: left;
+}
+
+
+@media screen and (max-width:1024px){
+  .service{
+    width: 100%;
+    margin: 0;
+  }
+  .grid {
+    
+    width: 90%;
+    gap: 20px;
+    margin: 20px auto;
+  }
+}
+
+@media screen and (max-width:768px)
+{
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto ;
+    width: 80%;
+    gap: 20px;
+    margin: 20px auto; 
+  }
+  .home-content {
+    
+    gap: 150px;
+    width: 80%;
+    
+  }
+  .content h1 {
+    font-size: 40px;
+    padding: 7px;
+  }
+  
+  .content p {
+    font-size: 20px;
+    padding: 12px;
+  }
+  .content h1 {
+    font-size: 40px;
+    padding: 7px;
+  }
+  
+}
+
+@media screen and (max-width:430px)
+{
+  .home-content {
+    display: block;
+    align-items: center;
+    gap: 150px;
+    width: 80%;
+    height: 85vh;
+    margin: 30px auto;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: auto ;
+    width: 70%;
+    gap: 20px;
+    margin: 20px auto;
+  }
+}

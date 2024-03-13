@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300&family=Mulish&family=Roboto:wght@300&display=swap");
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+/*.navbar
+{
+    background-color: #fff !important;
+}
+
+.navbar-brand{
+    font-size: 1.9rem !important;
+    color: #565387 !important;
+}
+
+.navbar a{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+
+.menu_active
+{
+    font-weight: bold;
+    border-bottom: 1px solid #565387;
+}
+.navbar a:hover
+{
+    color: #3498db !important;
+}*/
+
+.navbar
+{
+    background-color: rgb(21, 21, 172);
+    color: white;
+    position: sticky;
+    z-index: 1;
+    top:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 20px 30px;
+    width: 100%;
+   
+}
+
+h1{
+    font-size: 35px;
+}
+.nav-link
+{
+ display: inline-flex;
+ align-items: center;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 22px;
+}
+
+.link:hover{
+    background-color: #fff;
+    color: rgb(16, 16, 196);
+    border-radius: 6px;
+}
+
+.hamburger
+{
+    display: none;
+    cursor: pointer;
+}
+@media screen and (max-width: 520px) {
+    /* .navbar {
+      gap: 180px;
+    } */
+    .link {
+      padding: 5px 10px;
+      text-decoration: none;
+      font-size: 0.8em;
+    }
+    .newlinks {
+      display: none;
+    }
+    .hamburger {
+      display: block;
+    }
+    .newlinks.active {
+      display: block;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      padding: 1.5em;
+      background-color: #447fff;
+      width: 100%;
+    }
+    .newlinks .link {
+      display: block;
+      padding: 1.1em;
+    }
+  }
